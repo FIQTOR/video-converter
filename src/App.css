@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Ginto";
+    src: url("font/Ginto.ttf") format("truetype");
+    font-style: normal;
+}
+
+html,
+body {
+    background-color: #020617;
+    color: #d4d4d4;
+    font-family: 'Ginto', sans-serif;
+}
